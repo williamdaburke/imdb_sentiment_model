@@ -21,9 +21,9 @@ use categorical cross entropy, rather than having a single probability for posit
 I reached 95% training and 94% validation accuracy after 4 epochs.
 
 To retrain the models, please open one of the two ipython notebooks on a GPU device or in Google Colab at 
-https://colab.research.google.com/github/williamdaburke/deep_cognito_imdb_sentiment/blob/master/deepCognitoMovieSentiment_allennlp.ipynb
+https://colab.research.google.com/github/williamdaburke/imdb_sentiment_model/blob/master/MovieSentiment_allennlp.ipynb
 or
-https://colab.research.google.com/github/williamdaburke/deep_cognito_imdb_sentiment/blob/master/deepCognitoMovieSentiment_keras.ipynb
+https://colab.research.google.com/github/williamdaburke/imdb_sentiment_model/blob/master/MovieSentiment_keras.ipynb
 and make sure  runtime > change runtime type > harware accelerator is set to GPU.
 
 To test the allennlp model, please run the flask_sentiment file in the command line by typing "python flask_sentiment" and then 
