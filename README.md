@@ -20,7 +20,15 @@ and one out dimension, so I had to settle on 2 output dimesions for each class o
 use categorical cross entropy, rather than having a single probability for positive or not.
 I reached 95% training and 94% validation accuracy after 4 epochs.
 
-To retrain the models, please open one of the two ipython notebooks on a GPU device or in Google Colab.
+To retrain the models, please open one of the two ipython notebooks on a GPU device or in Google Colab at 
+https://colab.research.google.com/github/williamdaburke/deep_cognito_imdb_sentiment/blob/master/deepCognitoMovieSentiment_allennlp.ipynb
+or
+https://colab.research.google.com/github/williamdaburke/deep_cognito_imdb_sentiment/blob/master/deepCognitoMovieSentiment_keras.ipynb
+and make sure  runtime > change runtime type > harware accelerator is set to GPU.
 
-To test the allennlp model, please run the flask_sentiment file in the command line by typing "python flask_sentiment" and then open a browser
-window to: http://127.0.0.1:5000/
+To test the allennlp model, please run the flask_sentiment file in the command line by typing "python flask_sentiment" and then 
+open a browser window to: http://127.0.0.1:5000/,  but make sure you have the model file "model_allen_imdb_twoclass.th" saved in the
+directory.  If not, run the deepCognitoMovieSentiment_allennlp.ipynb notebook and save the model at the end in this folder (This will 
+requiring saving and then downloading if using google colab).
+
+
